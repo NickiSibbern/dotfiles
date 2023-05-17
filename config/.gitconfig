@@ -1,0 +1,29 @@
+[user]
+	name = Nicki Sibbern
+	email = 5722216+NickiSibbern@users.noreply.github.com
+	signingkey = ~/.ssh/github
+[core]
+	editor =code --wait
+	autocrlf = input
+	excludesfile = ~/.gitignore
+[push]
+	default = current
+[pull]
+	rebase = true
+[merge]
+    tool = vscode
+[mergetool "vscode"]
+    cmd = code --wait $MERGED
+[diff]
+    tool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
