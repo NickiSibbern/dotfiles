@@ -1,0 +1,49 @@
+[user]
+	name = Nicki Sibbern
+	email = 5722216+NickiSibbern@users.noreply.github.com
+    signingkey = ~/.ssh/signingkey
+[core]
+    editor = zed --wait
+    excludesfile = ~/.gitignore
+    preloadindex = true
+[status]
+    branch = true
+    showStash = true
+    showUntrackedFiles = all
+[log]
+    graphColors = blue,yellow,cyan,magenta,green,red
+[push]
+    default = current
+    autoSetupRemote = true
+[pull]
+    rebase = true
+    default = current
+[rebase]
+    autoStash = true
+    missingCommitsCheck = warn
+[interactive]
+    singlekey = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = ~/.ssh/allowed_signers
+[commit]
+    gpgsign = true
+[mergetool "zed"]
+    cmd = zed --wait $MERGED
+	keepBackup = false
+[merge]
+    tool = zed
+[diff]
+    context = 3
+    renames = copies
+    interHunkContext = 10
+    tool = zed
+[difftool "zed"]
+    cmd = zed --wait --diff $LOCAL $REMOTE
+    keepBackup = false

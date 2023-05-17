@@ -1,0 +1,34 @@
+# CLI Tools (Formulae)
+brew "zsh"
+brew "neovim"
+brew "jq"
+brew "yq"
+brew "fd"
+brew "ripgrep"
+brew "git"
+brew "git-lfs"
+brew "gh"
+brew "lazygit"
+brew "bat"
+brew "eza"
+brew "fzf"
+brew "zoxide"
+brew "starship"
+brew "go"
+brew "direnv"
+brew "kubernetes-cli"
+brew "k9s"
+brew "helm"
+brew "opencode"
+brew "television"
+
+# GUI Apps (Casks)
+cask "the-unarchiver"
+cask "rectangle"
+cask "ghostty"
+
+# Fonts
+cask "font-jetbrains-mono"
+
+# Mac App Store
+mas "Amphetamine", id: 937984704
