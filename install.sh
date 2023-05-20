@@ -11,6 +11,7 @@ brew install jq
 brew install git
 brew install git-lfs
 brew install curl
+brew install fig
 
 # Applications
 brew install --cask iterm2
