@@ -12,4 +12,4 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # Load user settings and customizations 
-source ~/dotfiles/.zsh/loader.zsh
+source ~/dotfiles/nix/.zsh/loader.zsh
