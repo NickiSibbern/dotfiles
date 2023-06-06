@@ -10,3 +10,4 @@ source ~/.fzf.zsh
 
 eval "$(direnv hook zsh)"
 eval "$(oh-my-posh init zsh --config ~/dotfiles/config/customization/themes/theme.omp.json)"
+eval $(keychain --eval --noinherit -q)

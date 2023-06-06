@@ -10,6 +10,10 @@ brew install git-lfs
 brew install curl
 brew install fig
 brew install jandedobbeleer/oh-my-posh/oh-my-posh
+brew install openssh
+brew install ykman
+brew install gpg-suite
+brew install keychain
 
 # Applications
 brew install --cask iterm2
