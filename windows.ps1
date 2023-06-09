@@ -13,7 +13,10 @@ Install-Module -Name Terminal-Icons -AllowPrerelease -Force
 Install-Module -Name PsFzf
 
 # Install windows apps
-winget install JanDeDobbeleer.OhMyPosh
+winget install --id JanDeDobbeleer.OhMyPosh
+winget install --id junegunn.fzf
+winget install --id GnuPG.Gpg4win
+winget install --id Microsoft.OpenSSH.Beta
 
 Copy-Item -Path (Join-Path $windowsDir "powershell" "Microsoft.PowerShell_profile.ps1") -Destination (Join-Path ([Environment]::GetFolderPath("MyDocuments")) "PowerShell") -Recurse -Force
 
