@@ -1,19 +1,8 @@
-# CLI tools
-brew install zsh
-brew install fzf
-brew install direnv
-brew install tree
-brew install jq
-brew install git
-brew install git-lfs
-brew install curl
-brew install fig
-brew install jandedobbeleer/oh-my-posh/oh-my-posh
-brew install openssh
+#!/bin/bash
 
-# Applications
-brew install --cask iterm2
-brew install --cask rectangle
+# CLI tools
+sudo apt install -y zsh direnv jq tree git git-lfs curl fzf unzip
+curl -s https://ohmyposh.dev/install.sh | sudo bash -s
 
 # backup existing .zshrc files
 mv ~/.zshrc ~/.zshrc_bak

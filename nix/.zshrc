@@ -6,7 +6,6 @@ plugins=(
     zsh-autosuggestions
     zsh-completions
     colorize
-    brew
 )
 
 source $ZSH/oh-my-zsh.sh
