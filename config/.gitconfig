@@ -1,7 +1,7 @@
 [user]
 	name = Nicki Sibbern
 	email = 5722216+NickiSibbern@users.noreply.github.com
-	signingkey = 39F59373
+	signingkey = ~/.ssh/id_ed25519_sk
 [core]
 	editor =code --wait
 	autocrlf = input
@@ -24,6 +24,8 @@
 	process = git-lfs filter-process
 	required = true
 [gpg]
-	program = gpg
+	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = ~/.ssh/allowed_signers
 [commit]
 	gpgsign = true
