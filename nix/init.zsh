@@ -1,4 +1,5 @@
 # env vars
+export PATH="$HOME/.local/bin:$PATH"
 export XDG_CONFIG_HOME=$HOME/.config
 export GITHUB_COPILOT_TELEMETRY_OPTOUT=1
 export ANSIBLE_HOST_KEY_CHECKING=false
