@@ -10,7 +10,7 @@ desktop-notifications = false
 
 theme = Catppuccin Mocha
 font-size = 14
-font-family = TX-02 Retina
+font-family = Jetbrains Mono
 
 keybind = super+left=goto_split:left
 keybind = super+right=goto_split:right
